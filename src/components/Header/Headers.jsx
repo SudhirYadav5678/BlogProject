@@ -1,12 +1,12 @@
 import React from 'react'
-import {container, Logo, LogoutBtm} from './index.js'
+import {container, Logo, LogoutBtm} from '../index.js'
 import { Link } from 'react-router-dom'
-import {useSelector} from 'react-redux' //to check in store that user is login or not
+import {useSelector} from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
-function Header() {
-  const authStatus = useSelector((state) => state.auth.status)// to check the user is login or logout
-  const navigate = useNavigate()// to show the navigater in the header for array to show navigater.
+function Headers() {
+  const authStatus = useSelector((state) => state.auth.status)
+  const navigate = useNavigate()
 
   const navItems = [
     {
@@ -70,4 +70,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Headers

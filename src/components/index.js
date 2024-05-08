@@ -10,6 +10,8 @@ import PostForm from './PostForm.jsx'
 import PostCard from './PostCard.jsx'
 import AuthLayout from './AuthLayout.jsx'
 import Select from './Select.jsx'
+import Header from './Header/Headers.jsx'
+import Footer from './Footer.jsx'
 
 
-export {Buttom, Input, Logo, RTE, LogoutBtm, Signup, container, Login,PostForm, PostCard,AuthLayout,Select }
+export {Buttom, Input, Logo, RTE, LogoutBtm, Signup, container, Login,PostForm, PostCard,AuthLayout,Select, Header, Footer }
